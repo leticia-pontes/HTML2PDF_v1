@@ -1,0 +1,59 @@
+# Regras para o Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.vssscc
+*.vsscc
+*.cache
+
+# Regras para arquivos de build
+bin/
+obj/
+out/
+
+# Regras para arquivos do .NET e MSBuild
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.csproj.user
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# Regras para pacotes NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Regras para arquivos temporários e logs
+*.tmp
+*.log
+*.log*
+
+# Regras para arquivos específicos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Regras para arquivos de configuração local
+appsettings.Development.json
+appsettings.json
+
+# Regras para diretórios do Visual Studio Code
+.vscode/
+
+# Regras para o JetBrains Rider
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Regras para backups e caches
+*.bak
+*.swp
+*.swo
+*.orig
+_ReSharper*/
+TestResults/

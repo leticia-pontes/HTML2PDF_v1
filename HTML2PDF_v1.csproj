@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <!-- Propriedades para empacotamento NuGet -->
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>HTML2PDF_v1</PackageId> <!-- Nome do pacote no NuGet -->
+    <Version>1.0.0</Version> <!-- Número de versão do pacote -->
+    <Description>Biblioteca para converter HTML em PDF usando QuestPDF, AngleSharp e HtmlAgilityPack</Description>
+    <RepositoryUrl>https://github.com/leticia-pontes/HTML2PDF_v1</RepositoryUrl> <!-- URL do repositório GitHub -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.45" />
+    <PackageReference Include="AngleSharp" Version="0.16.1" />
+    <PackageReference Include="AngleSharp.Css" Version="0.16.0" />
+    <PackageReference Include="QuestPDF" Version="2024.7.3" />
+  </ItemGroup>
+
+</Project>
