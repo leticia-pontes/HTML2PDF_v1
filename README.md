@@ -1,3 +1,5 @@
 # HTML2PDF_v1
 
-Parte 2 do projeto desenvolvido durante o 2° semestre de 2024 na disciplina Fábrica de Projetos Ágeis IV como método avaliativo. Apoiado pela empresa Interfocus. 
+Este projeto representa a Parte 2 do trabalho desenvolvido durante o 2º semestre de 2024 na disciplina Fábrica de Projetos Ágeis IV, como parte da avaliação do curso. O desenvolvimento foi realizado com o apoio da empresa Interfocus.
+
+### Autor Principal: Laura Yumi Osawa
